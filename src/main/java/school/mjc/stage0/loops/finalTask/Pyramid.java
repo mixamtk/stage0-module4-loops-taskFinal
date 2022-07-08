@@ -15,7 +15,7 @@ public class Pyramid {
             for (int a = 1; a <= cathetusLength-1; a++) {
                 if (count <= i) System.out.print(count);
                 count++ ;
-                if (count > i && count <cathetusLength) System.out.print(" ");
+                if (count > i && count <= cathetusLength) System.out.print(" ");
                 if (a == cathetusLength-1) System.out.println();
             } else
                 for (int a = 1; a <= cathetusLength; a++) {
